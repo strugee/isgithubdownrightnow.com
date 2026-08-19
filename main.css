@@ -4,6 +4,19 @@ h1 {
 
 body {
 	text-align: center;
+	word-break: break-all;
+}
+
+#warning {
+	word-break: initial;
+	border-style: dotted;
+	border-radius: 30px;
+}
+
+@media (min-width:660px) {
+	#warning {
+		display: none;
+	}
 }
 
 #footnote {
